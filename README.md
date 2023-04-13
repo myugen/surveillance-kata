@@ -29,7 +29,7 @@ classDiagram
         Instant occurredAt
     }
 
-    class SensorListerner {
+    class SensorListener {
         <<Interface>>
         onDetect(SensorEvent event) void
     }
